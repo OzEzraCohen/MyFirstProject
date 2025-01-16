@@ -7,7 +7,7 @@ import pageobjects.Login;
 
 public class LoginTest {
 
-	public static void main(String[] args) {
+	public  void main(String[] args) {
 		WebDriver MyDriver = new ChromeDriver();
 		MyDriver.manage().window().maximize();
 		MyDriver.get("https://www.saucedemo.com/");
